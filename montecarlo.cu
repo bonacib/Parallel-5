@@ -194,6 +194,9 @@ main( int argc, char* argv[ ] )
 	cudaMalloc( (void **)(&dhalflens),   NUMTRIALS*sizeof(float) );
 	CudaCheckError( );
 
+	cudaMalloc( (void **)(&dhits),   NUMTRIALS*sizeof(float) );
+	CudaCheckError( );
+
 
 
 	// copy host memory to the device:
@@ -214,6 +217,9 @@ main( int argc, char* argv[ ] )
 	CudaCheckError( );
 
 	cudaMemcpy( dhalflens,  hhalflens,  NUMTRIALS*sizeof(float), cudaMemcpyHostToDevice );
+	CudaCheckError( );
+
+	cudaMemcpy( dhits,  hhits,  NUMTRIALS*sizeof(float), cudaMemcpyHostToDevice );
 	CudaCheckError( );
 
 
@@ -265,7 +271,7 @@ main( int argc, char* argv[ ] )
 	// compute the sum :
 
 	int numHits = 0;
-	for (int block = 0; block < NUMBLOCKS; block++){
+	for (int block = 0; block < NUMTRIALS; block++){
 		numHits = numHits + hhits[block];
 	}
 
