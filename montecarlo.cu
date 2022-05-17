@@ -82,7 +82,7 @@ CudaCheckError()
 	}
 }
 
-
+// executed on GPU called from GPU
 // degrees-to-radians:
 __device__
 float
@@ -91,28 +91,50 @@ Radians( float d )
 	return (M_PI/180.f) * d;
 }
 
-
+// executed on GPU called from host
 __global__
 void
 MonteCarlo( IN float *dtxs, IN float *dtys, IN float *dtxvs, IN float *dsvs, IN float *dsths, IN float *dhalflens, OUT int *dhits )
 {
-	//unsigned int numItems = blockDim.x;
-	//unsigned int wgNum    = blockIdx.x;
-	//unsigned int tnum     = threadIdx.x;
+	// // Dimensions of the threads in the block
+	// unsigned int numItems = blockDim.x;
+	// // Block index within grid
+	// unsigned int wgNum    = blockIdx.x;
+	// // thread index withing block
+	// unsigned int tnum     = threadIdx.x;
 	unsigned int gid      = blockIdx.x*blockDim.x + threadIdx.x;
 
+	// no hit = 0
 	dhits[gid] = 0;
 
 	// randomize everything:
 	float tx   = dtxs[gid];
-	?????
+	float ty = dtys[gid];
+	float txv = dtxvs[gid];
+	float sv = dsvs[gid];
+	float sthd = dsths[gid];
+	float sthr = Radians( sthd );
+	float svx = sv * cos(sthr);
+	float svy = sv * sin(sthr);
 
+	// from project 1
 	// how long until the snowball reaches the y depth:
-	?????
-	if( ????? )
+	float t = ty / svy;
+
+	// how far the truck has moved in x in that amount of time:
+	float truckx = tx + txv * t;
+
+	// how far the snowball has moved in x in that amount of time:
+	float sbx = svx * t;
+
+	// does the snowball hit the truck (check x distances, not height):
+	if( fabs(sbx - truckx) < dhalflens[gid] )
 	{
-		dhits[gid] = 1;
+			// mark as hit = 1
+			dhits[gid] = 1;
+			//if( DEBUG )  fprintf( stderr, "Hits the truck at time = %8.3f\n", t );
 	}
+
 }
 
 
@@ -147,16 +169,31 @@ main( int argc, char* argv[ ] )
 	int *hhits = new int [NUMTRIALS];
 
 	// allocate device memory:
-
+	// d stands for device - GPU
 	float *dtxs, *dtys, *dtxvs, *dsvs, *dsths, *dhalflens;
 	int   *dhits;
 
 
 	//cudaError_t status;
+	// malloc space on GPU
 	cudaMalloc( (void **)(&dtxs),   NUMTRIALS*sizeof(float) );
 	CudaCheckError( );
 
-	?????
+	cudaMalloc( (void **)(&dtys),   NUMTRIALS*sizeof(float) );
+	CudaCheckError( );
+
+	cudaMalloc( (void **)(&dtxvs),   NUMTRIALS*sizeof(float) );
+	CudaCheckError( );
+
+	cudaMalloc( (void **)(&dsvs),   NUMTRIALS*sizeof(float) );
+	CudaCheckError( );
+
+	cudaMalloc( (void **)(&dsths),   NUMTRIALS*sizeof(float) );
+	CudaCheckError( );
+
+	cudaMalloc( (void **)(&dhalflens),   NUMTRIALS*sizeof(float) );
+	CudaCheckError( );
+
 
 
 	// copy host memory to the device:
@@ -164,7 +201,21 @@ main( int argc, char* argv[ ] )
 	cudaMemcpy( dtxs,  htxs,  NUMTRIALS*sizeof(float), cudaMemcpyHostToDevice );
 	CudaCheckError( );
 
-	?????
+	cudaMemcpy( dtys,  htys,  NUMTRIALS*sizeof(float), cudaMemcpyHostToDevice );
+	CudaCheckError( );
+
+	cudaMemcpy( dtxvs,  htxvs,  NUMTRIALS*sizeof(float), cudaMemcpyHostToDevice );
+	CudaCheckError( );
+
+	cudaMemcpy( dsvs,  hsvs,  NUMTRIALS*sizeof(float), cudaMemcpyHostToDevice );
+	CudaCheckError( );
+
+	cudaMemcpy( dsths,  hsths,  NUMTRIALS*sizeof(float), cudaMemcpyHostToDevice );
+	CudaCheckError( );
+
+	cudaMemcpy( dhalflens,  hhalflens,  NUMTRIALS*sizeof(float), cudaMemcpyHostToDevice );
+	CudaCheckError( );
+
 
 	// setup the execution parameters:
 
@@ -188,9 +239,9 @@ main( int argc, char* argv[ ] )
 	cudaEventRecord( start, NULL );
 	CudaCheckError( );
 
+	// call the finctiuons
 	// execute the kernel:
-
-	MonteCarlo<<< grid, threads >>>( dtxs, dtys, dtxvs, dsvs, dsths,  dhalflens, dhits );
+	MonteCarlo<<< grid, threads >>>( dtxs, dtys, dtxvs, dsvs, dsths, dhalflens, dhits );
 
 	// record the stop event:
 
@@ -214,7 +265,9 @@ main( int argc, char* argv[ ] )
 	// compute the sum :
 
 	int numHits = 0;
-	????
+	for (int block = 0; block < NUMBLOCKS; block++){
+		numHits = numHits + hhits[block];
+	}
 
 	float probability = 100.f * (float)numHits / (float)NUMTRIALS;
 

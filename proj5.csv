@@ -1,0 +1,384 @@
+montecarlo.cu(244): warning: variable "dhits" is used before its value is set
+
+montecarlo.cu(244): warning: variable "dhits" is used before its value is set
+
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Number of Trials =       1024, Blocksize =        8, MegaTrials/Second =        inf, Probability =   0.00%
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+GPU Device 0: "NVIDIA GeForce GTX TITAN Black" with compute capability 3.5
+
+montecarlo.cu(244): warning: variable "dhits" is used before its value is set
+
+montecarlo.cu(244): warning: variable "dhits" is used before its value is set
+
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Number of Trials =       1024, Blocksize =       32, MegaTrials/Second =        inf, Probability =   0.00%
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+GPU Device 0: "NVIDIA GeForce GTX TITAN Black" with compute capability 3.5
+
+montecarlo.cu(244): warning: variable "dhits" is used before its value is set
+
+montecarlo.cu(244): warning: variable "dhits" is used before its value is set
+
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Number of Trials =       1024, Blocksize =      128, MegaTrials/Second =        inf, Probability =   0.00%
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+GPU Device 0: "NVIDIA GeForce GTX TITAN Black" with compute capability 3.5
+
+montecarlo.cu(244): warning: variable "dhits" is used before its value is set
+
+montecarlo.cu(244): warning: variable "dhits" is used before its value is set
+
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Number of Trials =       4096, Blocksize =        8, MegaTrials/Second =        inf, Probability =   0.00%
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+GPU Device 0: "NVIDIA GeForce GTX TITAN Black" with compute capability 3.5
+
+montecarlo.cu(244): warning: variable "dhits" is used before its value is set
+
+montecarlo.cu(244): warning: variable "dhits" is used before its value is set
+
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Number of Trials =       4096, Blocksize =       32, MegaTrials/Second =        inf, Probability =   0.00%
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+GPU Device 0: "NVIDIA GeForce GTX TITAN Black" with compute capability 3.5
+
+montecarlo.cu(244): warning: variable "dhits" is used before its value is set
+
+montecarlo.cu(244): warning: variable "dhits" is used before its value is set
+
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Number of Trials =       4096, Blocksize =      128, MegaTrials/Second =        inf, Probability =   0.00%
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+GPU Device 0: "NVIDIA GeForce GTX TITAN Black" with compute capability 3.5
+
+montecarlo.cu(244): warning: variable "dhits" is used before its value is set
+
+montecarlo.cu(244): warning: variable "dhits" is used before its value is set
+
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Number of Trials =      16384, Blocksize =        8, MegaTrials/Second =        inf, Probability =   0.00%
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+GPU Device 0: "NVIDIA GeForce GTX TITAN Black" with compute capability 3.5
+
+montecarlo.cu(244): warning: variable "dhits" is used before its value is set
+
+montecarlo.cu(244): warning: variable "dhits" is used before its value is set
+
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Number of Trials =      16384, Blocksize =       32, MegaTrials/Second =        inf, Probability =   0.00%
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+GPU Device 0: "NVIDIA GeForce GTX TITAN Black" with compute capability 3.5
+
+montecarlo.cu(244): warning: variable "dhits" is used before its value is set
+
+montecarlo.cu(244): warning: variable "dhits" is used before its value is set
+
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Number of Trials =      16384, Blocksize =      128, MegaTrials/Second =        inf, Probability =   0.00%
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+GPU Device 0: "NVIDIA GeForce GTX TITAN Black" with compute capability 3.5
+
+montecarlo.cu(244): warning: variable "dhits" is used before its value is set
+
+montecarlo.cu(244): warning: variable "dhits" is used before its value is set
+
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Number of Trials =      65536, Blocksize =        8, MegaTrials/Second =        inf, Probability =   0.00%
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+GPU Device 0: "NVIDIA GeForce GTX TITAN Black" with compute capability 3.5
+
+montecarlo.cu(244): warning: variable "dhits" is used before its value is set
+
+montecarlo.cu(244): warning: variable "dhits" is used before its value is set
+
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Number of Trials =      65536, Blocksize =       32, MegaTrials/Second =        inf, Probability =   0.00%
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+GPU Device 0: "NVIDIA GeForce GTX TITAN Black" with compute capability 3.5
+
+montecarlo.cu(244): warning: variable "dhits" is used before its value is set
+
+montecarlo.cu(244): warning: variable "dhits" is used before its value is set
+
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Number of Trials =      65536, Blocksize =      128, MegaTrials/Second =        inf, Probability =   0.00%
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+GPU Device 0: "NVIDIA GeForce GTX TITAN Black" with compute capability 3.5
+
+montecarlo.cu(244): warning: variable "dhits" is used before its value is set
+
+montecarlo.cu(244): warning: variable "dhits" is used before its value is set
+
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Number of Trials =     262144, Blocksize =        8, MegaTrials/Second =        inf, Probability =   0.00%
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+GPU Device 0: "NVIDIA GeForce GTX TITAN Black" with compute capability 3.5
+
+montecarlo.cu(244): warning: variable "dhits" is used before its value is set
+
+montecarlo.cu(244): warning: variable "dhits" is used before its value is set
+
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Number of Trials =     262144, Blocksize =       32, MegaTrials/Second =        inf, Probability =   0.00%
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+GPU Device 0: "NVIDIA GeForce GTX TITAN Black" with compute capability 3.5
+
+montecarlo.cu(244): warning: variable "dhits" is used before its value is set
+
+montecarlo.cu(244): warning: variable "dhits" is used before its value is set
+
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Number of Trials =     262144, Blocksize =      128, MegaTrials/Second =        inf, Probability =   0.00%
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+GPU Device 0: "NVIDIA GeForce GTX TITAN Black" with compute capability 3.5
+
+montecarlo.cu(244): warning: variable "dhits" is used before its value is set
+
+montecarlo.cu(244): warning: variable "dhits" is used before its value is set
+
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Number of Trials =    1048576, Blocksize =        8, MegaTrials/Second =        inf, Probability =   0.00%
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+GPU Device 0: "NVIDIA GeForce GTX TITAN Black" with compute capability 3.5
+
+montecarlo.cu(244): warning: variable "dhits" is used before its value is set
+
+montecarlo.cu(244): warning: variable "dhits" is used before its value is set
+
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Number of Trials =    1048576, Blocksize =       32, MegaTrials/Second =        inf, Probability =   0.00%
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+GPU Device 0: "NVIDIA GeForce GTX TITAN Black" with compute capability 3.5
+
+montecarlo.cu(244): warning: variable "dhits" is used before its value is set
+
+montecarlo.cu(244): warning: variable "dhits" is used before its value is set
+
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Number of Trials =    1048576, Blocksize =      128, MegaTrials/Second =        inf, Probability =   0.00%
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+GPU Device 0: "NVIDIA GeForce GTX TITAN Black" with compute capability 3.5
+
+montecarlo.cu(244): warning: variable "dhits" is used before its value is set
+
+montecarlo.cu(244): warning: variable "dhits" is used before its value is set
+
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Number of Trials =    2097152, Blocksize =        8, MegaTrials/Second =        inf, Probability =   0.00%
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+GPU Device 0: "NVIDIA GeForce GTX TITAN Black" with compute capability 3.5
+
+montecarlo.cu(244): warning: variable "dhits" is used before its value is set
+
+montecarlo.cu(244): warning: variable "dhits" is used before its value is set
+
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Number of Trials =    2097152, Blocksize =       32, MegaTrials/Second =        inf, Probability =   0.00%
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+GPU Device 0: "NVIDIA GeForce GTX TITAN Black" with compute capability 3.5
+
+montecarlo.cu(244): warning: variable "dhits" is used before its value is set
+
+montecarlo.cu(244): warning: variable "dhits" is used before its value is set
+
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Number of Trials =    2097152, Blocksize =      128, MegaTrials/Second =        inf, Probability =   0.00%
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+GPU Device 0: "NVIDIA GeForce GTX TITAN Black" with compute capability 3.5
+
+montecarlo.cu(244): warning: variable "dhits" is used before its value is set
+
+montecarlo.cu(244): warning: variable "dhits" is used before its value is set
+
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Number of Trials =    4194304, Blocksize =        8, MegaTrials/Second =        inf, Probability =   0.00%
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+GPU Device 0: "NVIDIA GeForce GTX TITAN Black" with compute capability 3.5
+
+montecarlo.cu(244): warning: variable "dhits" is used before its value is set
+
+montecarlo.cu(244): warning: variable "dhits" is used before its value is set
+
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Number of Trials =    4194304, Blocksize =       32, MegaTrials/Second =        inf, Probability =   0.00%
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+GPU Device 0: "NVIDIA GeForce GTX TITAN Black" with compute capability 3.5
+
+montecarlo.cu(244): warning: variable "dhits" is used before its value is set
+
+montecarlo.cu(244): warning: variable "dhits" is used before its value is set
+
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Number of Trials =    4194304, Blocksize =      128, MegaTrials/Second =        inf, Probability =   0.00%
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+Cuda failure montecarlo.cu:81: 'an illegal memory access was encountered'
+GPU Device 0: "NVIDIA GeForce GTX TITAN Black" with compute capability 3.5
+
