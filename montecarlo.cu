@@ -1,3 +1,7 @@
+// Bailey Bonaci
+// Project5
+// CUDA: Monte Carlo Simulation
+// Code from Professor Bailey
 // Monte Carlo simulation of a snowball fight:
 
 // system includes

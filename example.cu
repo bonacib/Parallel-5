@@ -1,3 +1,5 @@
+// Code from Professor Bailey to help with set up
+
 // Array multiplication: C = A * B:
 
 // System includes
